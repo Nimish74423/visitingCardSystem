@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit';
+    background: linear-gradient(#ffdad5,#fff7f9);
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.inputPanelTitle h2{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+.inputPanelTitle hr{
+    border: none;
+    width: 350px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.inputFields{
+    
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.inputFields textarea{
+    height: 100px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.inputFields::placeholder{
+    color: #a9a9a9;
+}
+#gen{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px; 
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    cursor: pointer;
+}
+
+.inputFields button img{
+    height: 15px;
+}
+.idImage img{
+    width: 500px;
+}
+label{
+    
+    
+    font-size: 15px;
+    color: red;
+}
+@media (max-width: 800px){
+    .inputFields{
+        width: 80vw;
+    }
+    .idImage{
+        display: none;
+    }
+
+}

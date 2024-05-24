@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+
+}
+.container{
+    font-family: 'Outfit';
+    height: 100vh;
+    background: linear-gradient(#ffdad5,#fff7f9);
+    margin: 0%;
+
+}
+.image{
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    padding-top: 30px;
+    margin: auto;
+    
+    border-radius: 10px;
+    background-image: url(images/design1.jpg);
+
+}
+
+.overlayText{
+    width: 500px;
+    height: 300px;
+    
+}
+#download1{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px; 
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    width: 130px;
+    
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    cursor: pointer;
+}
+#download2{
+    margin-left: 100vh;
+}
